@@ -1,0 +1,59 @@
+body {
+	background-color: lightcoral;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.grid {
+	margin: 2% 30%;
+	width: 500px;
+	height: 600px;
+	background-color: khaki;
+	border: black 3px solid;
+	position: relative;
+}
+
+.scoreText {
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 20%;
+}
+
+#tryagain {
+	background-color: lightcoral;
+	border-radius: 15%;
+	font-size: 1.5rem;
+	border: black 3px solid;
+	font-family: 'Secular One', sans-serif;
+	margin-left: 35%;
+}
+
+.scoreDisplay {
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: solid black 2px;
+	margin: 1%;
+	background-color: darksalmon;
+	padding: 2% 2% 0% 2%;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.doodler {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: darkslateblue;
+	border: black 3px solid;
+	position: absolute;
+}
+
+.platform {
+	width: 100px;
+	height: 15px;
+	background-color: forestgreen;
+	border: black 3px solid;
+	border-radius: 15%;
+	position: absolute;
+}
